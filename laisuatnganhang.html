@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let tienVay = (prompt(+parseInt('Nhap so tien can vay'))
+        let laiSuat = prompt(+parseInt('Nhap lai suat hang nam (don vi: %)'))
+        let soNam = prompt(+parseInt('Nhap so nam vay (don vi: nam)'))
+
+        laiDon = tienVay * (laiSuat / 100)
+        
+        tienPhaiTra = tienVay + laiDon * soNam
+
+        document.write('So tien phai tra khi vay ' + tienVay + ' voi lai suat ' + laiSuat + '% sau ' + soNam + ' nam la: ' + tienPhaiTra)
+    </script>
+</body>
+</html>
